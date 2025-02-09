@@ -3,9 +3,8 @@ body{
     flex-direction: column;
     align-items: center;
     margin:0;
-    width: 100%;
-    background-image: url('../images/back.jpg');
     background-size: cover;
+    background-image: url('../images/back.jpg');
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.61);
     background-blend-mode: overlay;
@@ -36,6 +35,7 @@ nav ul{
 
 nav ul li a{
     color: black;
+    font-size: 1.2rem;
     margin: 5px;
     text-decoration: none;
     padding: 10px 15px;
