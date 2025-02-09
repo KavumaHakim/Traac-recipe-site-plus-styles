@@ -109,7 +109,7 @@ main{
     font-size: 2rem;
     list-style-type: none;
     display: inline;
-    margin: 1rem;
+    margin: 1rem;;
 }
 
 .co li a{
@@ -120,11 +120,13 @@ main{
     border-radius: 15px;
     transition: all 300ms ease-in;
 }
+
 .co h2{
     text-align: center;
     color: rgb(0, 230, 247);
     font-size: 3rem;
 }
 .co li a:hover{
-    transform: scale(1.2);
+    background-color: rgb(255, 0, 140);
+    color: white;
 }
